@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS Cheat Sheets for CodeAcademy</title>
+    <link href="./resources/index.css" type="text/css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HTML & CSS Cheat Sheets</h1>
+    </header>
+
+    <!--Main Navigation - Child divs inside a parent div-->
+
+    <div class="main-nav">
+        <a href="#html">
+            <div class="main-nav-item">HTML</div>
+        </a>
+        <a href="#css">
+            <div class="main-nav-item">CSS</div>
+        </a>
+    </div>
+
+    <!--HTML CheatSheet-->
+
+    <section id="html">
+        <h2>HTML</h2>
+
+        <!--HTML Navigation - Child divs inside a parent div. Sizing is on anchor tag as this is the direct child.-->
+
+        <div class="html-nav">
+            <a href="#elements">
+                <div class="html-nav-item">HTML Elements & Structure</div>
+            </a>
+            <a href="#tables">
+                <div class="html-nav-item">Tables</div>
+            </a>
+            <a href="#forms">
+                <div class="html-nav-item">Forms</div>
+            </a>
+            <a href="#semantic">
+                <div class="html-nav-item">Semantic HTML</div>
+            </a>
+        </div>
+
+        <!--HTML Elements & Structure Section-->
+        <section id="elements">
+            <h3>HTML Elements & Structure</h3>
+
+            <div class="glossary">
+                <div class="term">HTML</div>
+                <div class="definition">HTML (HyperText Markup Language) is used to give content to a web page and
+                    instructs web browsers on how to structure that content.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">Element Content</div>
+                <div class="definition">The content of an HTML element is the information between the opening and
+                    closing tags of an element.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;li&gt; List Item Element</div>
+                <div class="definition">The <strong>&lt;li&gt;</strong> list item element create list items inside <strong>&lt;ol&gt;</strong> ordered
+                    lists and <strong>&lt;ul&gt;</strong> unordered lists.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;video&gt; Video Element</div>
+                <div class="definition">The <strong>&lt;video&gt;</strong> element embeds a media player for video playback. The
+                    <strong>src</strong> attribute will contain the URL to the video. Adding the
+                    <strong>controls</strong> attribute will display video controls in the media player. The content
+                    inside the opening and closing tag is shown as a fallback in browsers that don't support the
+                    element.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;ol&gt; Ordered List Element</div>
+                <div class="definition">The <strong>&lt;ol&gt;</strong> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;div&gt; Div Element</div>
+                <div class="definition">The <strong>&lt;div&gt;</strong> element is used as a container that divides an HTML document into sections and is short for "division". <strong>&lt;div&gt;</strong> elements can contain flow content such as headings, paragraphs, links, images etc.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">HTML Structure</div>
+                <div class="definition">HTMl is organised into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">Closing Tag</div>
+                <div class="definition">An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is left angle bracket <strong>&lt;</strong> followed by a forward slash <strong>/</strong>< then the element name a right angle bracket to close <strong>&gt;</strong>.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">Attribute Name & Values</div>
+                <div class="definition">HTML attributes consist of a name and a value using the following syntax: <strong>name="value"</strong> and can be added to the opening tag of an HTML element to configure or change the behaviour of the element.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;br&gt; Line Break Element</div>
+                <div class="definition">The <strong>&lt;br&gt;</strong> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;img&gt; Image Element</div>
+                <div class="definition">HTML image <strong>&lt;img&gt;</strong> elements embed images in documents. The <strong>src</strong> attribute contains the image URL and is mandatory. <strong>&lt;img&gt;</strong> is an empty element meaning it should not have a closing tag.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;h1&gt; - &lt;h6&gt; Heading Elements</div>
+                <div class="definition">HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <strong>&lt;h1&gt;</strong> to the lowest level <strong>&lt;h6&gt;</strong>.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;p&gt; Paragraph Element</div>
+                <div class="definition">The <strong>&lt;p&gt;</strong> paragraph element contains and displays a block of text.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">HTML Attributes</div>
+                <div class="definition">HTML attributes are values added to the opening tag of an element to configure the element or change the element's default behaviour. We can give the <strong>&lt;p&gt;</strong> paragraph element a unique identifer using the <strong>id</strong> attribute and changing the colour of the default text using the <strong>style</strong> attribute.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;ul&gt; Unordered List Element</div>
+                <div class="definition">The <strong>&lt;ul&gt;</strong> unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.</div>
+            </div>
+        </section>
+
+        <!--HTML Tables Section-->
+        <section id="tables">
+            <h3>Tables</h3>
+
+            <div class="glossary">
+                <div class="term">&lt;td&gt; Table Data Element</div>
+                <div class="definition">The table data element, <strong>&lt;td&gt;</strong>, can be nested inside a table row element, <strong>&lt;tr&gt;</strong>, to add a cell of data to a table.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;tr&gt; Table Row Element</div>
+                <div class="definition">The table row element, <strong>&lt;tr&gt;</strong>, is used to add rows to a table before adding table data and table headings.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;thead&gt; Table Head Element</div>
+                <div class="definition">The table head element, <strong>&lt;thead&gt;</strong>, defines the headings of table columns encapsulated in table rows.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">rowspan Attribute</div>
+                <div class="definition">Similar to <strong>colspan</strong>, the <strong>rowspan</strong> attribute on a table header or table data element indicates how many rows that particular cell should span within the table. The <strong>rowspan</strong> value is set to 1 by default and will take any positive integer up to 65534.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;tbody&gt; Table Body Element</div>
+                <div class="definition">The table body element, <strong>&lt;tbody&gt;</strong>, is a semantic element that will contain all table data other than table heading and table footer content. If used, <strong>&lt;tbody&gt;</strong> will contain all table row <strong>&lt;tr&gt;</strong> elements, and indicates that <strong>&lt;tr&gt;</strong> elements make up the body of the table. <strong>&lt;table&gt;</strong> cannot have both <strong>&lt;tbody&gt;</strong> and <strong>&lt;tr&gt;</strong> as direct children.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">colspan Attribute</div>
+                <div class="definition">The <strong>colspan</strong> attribute on a table header <strong>&lt;th&gt;</strong> or table data <strong>&lt;td&gt;</strong> element indicates how many columns that particular cell should span within the table. The <strong>colspan</strong> value is set to 1 by default and will take any positive integer between 1 and 1000.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;tfoot&gt; Table Footer Element</div>
+                <div class="definition">The table footer element, <strong>&lt;tfoot&gt;</strong>, uses table rows to give footer content or to summarise content at the end of a table.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;table&gt; Table Element</div>
+                <div class="definition">In HTML, the <strong>&lt;table&gt;</strong> element has content that is used to represent a two-dimensional table made of rows and columns.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;th&gt; Table Heading Element</div>
+                <div class="definition">The table heading element, <strong>&lt;th&gt;</strong>, is used to add titles to rows and columns of a table and must be enclosed in a table row element, <strong>&lt;tr&gt;</strong>.</div>
+            </div>
+
+        </section>
+
+        <!--HTML Forms Section-->
+        <section id="forms">
+            <h3>Forms</h3>
+
+            <div class="glossary">
+                <div class="term">&lt;input&gt;: Checkbox Type</div>
+                <div class="definition">HTML (HyperText Markup Language is used to give content to a web page and
+                    instructs web browsers on how to structure that content.</div>
+            </div>
+
+        </section>
+
+        <!--Semantic HTML Section-->
+        <section id="semantic">
+            <h3>Semantic HTML</h3>
+
+            <div class="glossary">
+                <div class="term">Semantic HTML</div>
+                <div class="definition">Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes in it. An element such as <strong>&lt;div&gt;</strong> was used as a general-purpose element to create things from headers to footers to articles. With Semantic HTML we were introduced to elements that tell developers and browsers exactly what it does and what content should go in it.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">Element Placement</div>
+                <div class="definition">Semantic HTML introduces elements that can tell developers exactly what the element does or where it’s placed based on the name of that element. Some of these elements are <strong>&lt;header&gt;</strong>, <strong>&lt;nav&gt;</strong>, <strong>&lt;main&gt;</strong>, and <strong>&lt;footer&gt;</strong>. <strong>&lt;header&gt;</strong> describes the content at the top of the page <strong>&lt;body&gt;</strong>. It may include a logo, navigational links or a search bar. <strong>&lt;nav&gt;</strong> encapsulates the page’s navigational links. It is often placed inside the <strong>&lt;header&gt;</strong> or <strong>&lt;footer&gt;</strong>. <strong>&lt;main&gt;</strong> encapsulates the main content of a page between the header/navigation and the footer areas. <strong>&lt;footer&gt;</strong> includes the page’s footer content at the bottom of the <strong>&lt;body&gt;</strong>.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">Embedding Media</div>
+                <div class="definition">Semantic HTML introduces us to <strong>&lt;video&gt;</strong>, <strong>&lt;audio&gt;</strong> and <strong>&lt;embed&gt;</strong>. <strong>&lt;video&gt;</strong> allows us to add videos to our website. <strong>&lt;audio&gt;</strong> allows us to implement audio into our website. <strong>&lt;embed&gt;</strong> can be used to implement any type of media. These elements are universal in that they all use the src attribute to link the source of the content. <strong>&lt;video&gt;</strong> and <strong>&lt;audio&gt;</strong> requires a closing tag while <strong>&lt;embed&gt;</strong> is a self-closing tag.</div>
+            </div>
+
+            <div class="glossary">
+                <div class="term">&lt;figure&gt; and &lt;figcaption&gt;</div>
+                <div class="definition">The <strong>&lt;figure&gt;</strong> element is used to encapsulate media such as an image, diagram. or code snippet. The <strong>&lt;figcaption&gt;</strong> element is used to describe the media encapsulated within the <strong>&lt;figure&gt;</strong> element. Developers will normally use <strong>&lt;figcaption&gt;</strong> within the <strong>&lt;figure&gt;</strong> element to group the media and description. This way, if a developer decides to change the position of the media, the description will follow along with it.</div>
+            </div>
+
+
+        </section>
+
+    </section>
+
+    <!--CSS CheatSheet-->
+
+    <section id="css">
+        <h2>CSS</h2>
+
+        <!--CSS Navigation - Child divs inside a parent div. Sizing is on anchor tag as this is the direct child.-->
+
+        <div class="css-nav">
+            <a href="#syntax">
+                <div class="css-nav-item">Syntax & Selectors</div>
+            </a>
+            <a href="#visualrules">
+                <div class="css-nav-item">Visual Rules</div>
+            </a>
+            <a href="#boxmodel">
+                <div class="css-nav-item">The Box Model</div>
+            </a>
+            <a href="#display">
+                <div class="css-nav-item">Display & Positioning</div>
+            </a>
+            <a href="#colours">
+                <div class="css-nav-item">Colours</div>
+            </a>
+            <a href="#typography">
+                <div class="css-nav-item">Typography</div>
+            </a>
+        </div>
+
+        <!--CSS Syntax & Selectors Section-->
+        <section id="syntax">
+            <h3>Syntax & Selectors</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+
+        <!--CSS Visual Rules Section-->
+        <section id="visualrules">
+            <h3>Visual Rules</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+
+        <!--CSS Box Model Section-->
+        <section id="boxmodel">
+            <h3>The Box Model</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+
+        <!--CSS Display & Positioning Section-->
+        <section id="display">
+            <h3>Display & Positioning</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+
+        <!--CSS Colours Section-->
+        <section id="colours">
+            <h3>Colours</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+
+        <!--CSS Typography Section-->
+        <section id="typography">
+            <h3>Typography</h3>
+
+            <div class="glossary">
+                <div class="term">Font Size</div>
+                <div class="examples">font-size: 30px; | font-size: 2em;</div>
+                <div class="definition">The <strong>font-size</strong> CSS property is used to set text sizes. Font size
+                    values can be many different units or types such as pixels.</div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <h6>Created by Sarah Scarfe. 29 December 2021.</h6>
+    </footer>
+</body>
+
+</html>
